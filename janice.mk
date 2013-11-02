@@ -33,6 +33,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # PRODUCT_PROPERTY_OVERRIDES += \
 #     ro.config.vc_call_vol_steps=8
 
+# Enable AAC 5.1 output
+PRODUCT_PROPERTY_OVERRIDES += \
+    media.aac_51_output_enabled=true
+
+PRODUCT_TAGS += dalvik.gc.type-precise
+
 # Packages
 #PRODUCT_PACKAGES += \
 #    GalaxySAdvanceSettings
