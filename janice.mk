@@ -27,10 +27,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.default_network=0 \
     ro.telephony.ril_class=SamsungU8500RIL \
     ro.telephony.sends_barcount=1
-    
-# Low in-call volume workaround test
-# PRODUCT_PROPERTY_OVERRIDES += \
-#     ro.config.vc_call_vol_steps=8
+	
+# 4.4 Required lines
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.zygote.disable_gl_preload=1 \
+	ro.bq.gpu_to_cpu_unsupported=1 \
+	ro.boot.selinux=disabled
 
 # Enable AAC 5.1 output
 PRODUCT_PROPERTY_OVERRIDES += \
