@@ -6,10 +6,6 @@ LOCAL_PATH := device/samsung/janice
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# This device is HDPI
-PRODUCT_AAPT_CONFIG := normal hdpi
-PRODUCT_AAPT_PREF_CONFIG := hdpi
-
 # STE
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/ste_modem.sh:system/etc/ste_modem.sh
@@ -19,26 +15,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/tee/cops_ta.ssw:system/lib/tee/cops_ta.ssw \
     $(LOCAL_PATH)/tee/custom_ta.ssw:system/lib/tee/custom_ta.ssw \
     $(LOCAL_PATH)/tee/libbassapp_ssw:system/lib/tee/libbassapp_ssw \
-    $(LOCAL_PATH)/tee/smcl_ta_8500bx_secure.ssw:system/lib/tee/smcl_ta_8500bx_secure.ssw 
-
-# RIL
-PRODUCT_PROPERTY_OVERRIDES += \
-    mobiledata.interfaces=pdp0,wlan0,gprs,ppp0 \
-    ro.telephony.default_network=0 \
-    ro.telephony.ril_class=SamsungU8500RIL \
-    ro.telephony.sends_barcount=1
-	
-# 4.4 Required lines
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.zygote.disable_gl_preload=1 \
-	ro.bq.gpu_to_cpu_unsupported=1 \
-	ro.boot.selinux=disabled
+    $(LOCAL_PATH)/tee/smcl_ta_8500bx_secure.ssw:system/lib/tee/smcl_ta_8500bx_secure.ssw
 
 # Enable AAC 5.1 output
 PRODUCT_PROPERTY_OVERRIDES += \
     media.aac_51_output_enabled=true
-
-PRODUCT_TAGS += dalvik.gc.type-precise
 
 # Packages
 #PRODUCT_PACKAGES += \
