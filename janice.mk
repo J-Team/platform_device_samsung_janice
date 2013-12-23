@@ -22,8 +22,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     media.aac_51_output_enabled=true
 
 # Packages
-#PRODUCT_PACKAGES += \
-#    GalaxySAdvanceSettings
+PRODUCT_PACKAGES += \
+    GalaxySAdvanceSettings
 
 # Gps
 PRODUCT_COPY_FILES += \
