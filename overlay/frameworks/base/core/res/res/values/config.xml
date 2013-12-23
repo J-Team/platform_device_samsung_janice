@@ -128,8 +128,8 @@
 	
     <!-- LUN file to be used by legacy USB manager.
     The existence of this file will be used to determine in the
-    legacy USB manager should be started.
-    <string name="config_legacyUmsLunFile">/sys/devices/virtual/android_usb/android0/f_mass_storage/lun0/file</string> -->
+    legacy USB manager should be started. -->
+    <string name="config_legacyUmsLunFile">/sys/devices/virtual/android_usb/android0/f_mass_storage/lun0/file</string>
     
     <!-- Flag indicating whether the we should enable the automatic brightness in Settings.
     Software implementation will be used if config_hardware_auto_brightness_available is not set -->
