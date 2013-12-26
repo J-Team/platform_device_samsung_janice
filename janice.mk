@@ -1,12 +1,6 @@
 # Include common makefile
 $(call inherit-product, device/samsung/u8500-common/common.mk)
 
-
-ifneq ($(TARGET_SCREEN_HEIGHT),800)
-# Call cm.mk because somehow it's not being called!
-$(call inherit-product, device/samsung/janice/cm.mk)
-endif
-
 LOCAL_PATH := device/samsung/janice
 
 # Overlay
@@ -43,10 +37,7 @@ PRODUCT_TAGS += dalvik.gc.type-precise
 # Packages
 PRODUCT_PACKAGES += \
     GalaxySAdvanceSettings \
-    CMAccount \
-    Stk \
-    org.cyanogenmod.hardware \
-    org.cyanogenmod.hardware.xml
+    Stk 
 
 # Gps
 PRODUCT_COPY_FILES += \
