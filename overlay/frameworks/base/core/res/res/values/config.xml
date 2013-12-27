@@ -196,12 +196,6 @@
     
     <!-- Boolean to enable stk functionality on Samsung phones -->
     <bool name="config_samsung_stk">true</bool>
-	
-    <!-- Device supports LED flashlight -->
-    <bool name="config_enableTorch">true</bool>
-    
-    <!-- True will enable the electron beam screen-off animation. -->
-    <bool name="config_screenOffAnimation">true</bool>
     
     <!-- Disabled to activate electron beam animation (CRT-OFF) -->
     <bool name="config_animateScreenLights">false</bool>
