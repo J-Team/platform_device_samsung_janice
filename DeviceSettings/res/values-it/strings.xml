@@ -66,6 +66,6 @@
 <!-- CATEGORY: STORAGE -->
     <string name="storage_subcat_title">Memoria</string>
     <string name="switch_storage_title_head">Scambia partizioni</string>
-    <string name="switch_storage_summary_head">Scambia la partizione dell'archivio interno con la tua scheda microSD. Riavvio richiesto.</string>
+    <string name="switch_storage_summary_head">Scambia la partizione dell\'archivio interno con la tua scheda microSD. Riavvio richiesto.</string>
 
 </resources>
