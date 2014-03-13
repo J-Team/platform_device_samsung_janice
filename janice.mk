@@ -25,10 +25,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     GalaxySAdvanceSettings
 
-# Gps
+# GPS
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf
-    
+    $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf \
+    $(COMMON_PATH)/configs/sirfgps.conf:system/etc/sirfgps.conf
+
 # Compass workaround
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/compass:system/etc/init.d/compass
