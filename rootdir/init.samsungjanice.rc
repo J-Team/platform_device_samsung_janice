@@ -1,14 +1,15 @@
 import /init.samsungjanice.usb.rc
 
 on init
-
-    mkdir /storage/sdcard0 0700 root root
-    mkdir /storage/sdcard1 0700 root root
-    mkdir /mnt/media_rw/sdcard0 0700 media_rw media_rw
-    mkdir /mnt/media_rw/sdcard1 0700 media_rw media_rw
     
     export EXTERNAL_STORAGE /storage/sdcard0
     export SECONDARY_STORAGE /storage/sdcard1
+
+    mkdir /mnt/media_rw/sdcard0 0700 media_rw media_rw
+    mkdir /mnt/media_rw/sdcard1 0700 media_rw media_rw
+    
+    mkdir /storage/sdcard0 0770 root root
+    mkdir /storage/sdcard1 0770 root root
 
     mkdir /efs 0771 radio system
     mkdir /modemfs 0771 system system
