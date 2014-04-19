@@ -1,7 +1,11 @@
 # Include common makefile
 $(call inherit-product, device/samsung/u8500-common/common.mk)
 
+# Inherit common AOSP stuff
+$(call inherit-product, vendor/aosp/config/common.mk)
+
 LOCAL_PATH := device/samsung/janice
+JANICEP_PATH := device/samsung/janicep
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
@@ -16,6 +20,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/tee/custom_ta.ssw:system/lib/tee/custom_ta.ssw \
     $(LOCAL_PATH)/tee/libbassapp_ssw:system/lib/tee/libbassapp_ssw \
     $(LOCAL_PATH)/tee/smcl_ta_8500bx_secure.ssw:system/lib/tee/smcl_ta_8500bx_secure.ssw
+
+# TEEP
+PRODUCT_COPY_FILES += \
+    $(JANICEP_PATH)/tee/cops_ta.ssw:system/lib/teeP/cops_ta.ssw \
+    $(JANICEP_PATH)/tee/custom_ta.ssw:system/lib/teeP/custom_ta.ssw \
+    $(JANICEP_PATH)/tee/libbassapp_ssw:system/lib/teeP/libbassapp_ssw \
+    $(JANICEP_PATH)/tee/smcl_ta_8500bx_secure.ssw:system/lib/teeP/smcl_ta_8500bx_secure.ssw
 
 # Enable AAC 5.1 output
 PRODUCT_PROPERTY_OVERRIDES += \

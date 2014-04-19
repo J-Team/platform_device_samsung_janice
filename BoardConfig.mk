@@ -13,6 +13,9 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/janice/bluetooth
 # Vibrator
 BOARD_HAS_VIBRATOR_IMPLEMENTATION := ../../device/samsung/janice/vibrator/vibrator.c
 
+# Custom relese tools for unified devices
+TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/janice
+
 # Recovery
 #TARGET_RECOVERY_INITRC := device/samsung/janice/rootdir/recovery.rc
 #RECOVERY_FSTAB_VERSION := 1

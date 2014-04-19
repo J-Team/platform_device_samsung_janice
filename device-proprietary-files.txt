@@ -1,0 +1,6 @@
+# proprietary file list
+# bin/filename
+lib/teeP/cops_ta.ssw:system/lib/teeP/cops_ta.ssw
+lib/teeP/custom_ta.ssw:system/lib/teeP/custom_ta.ssw
+lib/teeP/libbassapp_ssw:system/lib/teeP/libbassapp_ssw
+lib/teeP/smcl_ta_8500bx_secure.ssw:system/lib/teeP/smcl_ta_8500bx_secure.ssw
