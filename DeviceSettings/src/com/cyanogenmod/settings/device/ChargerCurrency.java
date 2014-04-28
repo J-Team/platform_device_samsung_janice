@@ -32,7 +32,7 @@ public class ChargerCurrency extends ListPreference implements
 		this.setOnPreferenceChangeListener(this);
 	}
 
-	private static final String FILE = "/sys/kernel/abb-charger/max_ac_c";
+	private static final String FILE = "/sys/kernel/abb-charger/charger_curr";
 
 	public static boolean isSupported() {
 		return Utils.fileExists(FILE);
