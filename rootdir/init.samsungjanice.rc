@@ -462,11 +462,6 @@ on boot
     # temp Torch workaround
     chmod 0222 /sys/class/sec/flash/enable
     
-    # system permissions for device parts
-    chown system system /d/cpuidle/deepest_state
-    chown system system /sys/kernel/abb-charger/max_ac_c
-    chown system system /sys/kernel/abb-charger/max_usb_c
-    
 
  # Define TCP buffer sizes for various networks
  #   ReadMin, ReadInitial, ReadMax, WriteMin, WriteInitial, WriteMax,
