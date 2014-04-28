@@ -1,9 +1,6 @@
 # Include common makefile
 $(call inherit-product, device/samsung/u8500-common/common.mk)
 
-# Inherit common AOSP stuff
-$(call inherit-product, vendor/aosp/config/common.mk)
-
 LOCAL_PATH := device/samsung/janice
 JANICEP_PATH := device/samsung/janicep
 
