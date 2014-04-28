@@ -27,8 +27,6 @@
     <string name="cc_subcat_title">Controllo Caricabatterie</string>
     <string name="ac_cc_title_head">Intensità Caricabatterie</string>
     <string name="ac_cc_summary_head">Intensità caricabatterie in mAh, bassi livelli proteggono la batteria ma è richiesto maggior tempo per la ricarica, alte frequenze potrebbero danneggiare la durata della batteria</string>
-    <string name="usb_cc_title_head">Intensità Caricabatterie USB</string>
-    <string name="usb_cc_summary_head">Intensità carica USB in mAh, utile per implementare la ricarica veloce, bassi livelli proteggono la batteria ma è richiesto maggior tempo per la ricarica, alte frequenze potrebbero danneggiare la durata della batteria</string>
 
     <!-- CATEGORY: Radio mode -->
     <string name="radio_subcat_title">Modalità Rete</string>

@@ -12,7 +12,10 @@
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
-     limitations under the License.
+     limitations under the License.
+
+
+
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
@@ -50,11 +53,6 @@
         <item>Enabled (default)</item>
         <item>Disabled</item>
         <item>Dynamic</item>
-    </string-array>
-    <string-array name="cc_currency_usb_entries">
-        <item>800 mAh *WARNING*</item>
-        <item>600 mAh (fast charge)</item>
-        <item>400 mAh</item>
     </string-array>
     <string-array name="deepest_sleep_states_entries">
         <item>State 5</item>

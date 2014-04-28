@@ -42,10 +42,8 @@
 
     <!-- CATEGORY: Charger Control -->
     <string name="cc_subcat_title">Charger control</string>
-    <string name="ac_cc_title_head">Wall charger currency</string>
-    <string name="ac_cc_summary_head">Wall charger currency in mAh, low levels protect battery but takes longer to charge, high levels may damage battery life</string>
-    <string name="usb_cc_title_head">USB cable currency</string>
-    <string name="usb_cc_summary_head">USB cable currency in mAh, useful to implement Fast Charge, low levels protect battery but takes longer to charge, high levels may damage battery life</string>
+    <string name="ac_cc_title_head">Charger currency</string>
+    <string name="ac_cc_summary_head">Charger currency in mAh, low levels protect battery but takes longer to charge, high levels may damage battery life</string>
 
     <!-- TAB: Advance -->
     <string name="category_advanced_title">Advanced</string>

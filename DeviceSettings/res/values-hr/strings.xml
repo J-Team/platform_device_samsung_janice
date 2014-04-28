@@ -33,8 +33,6 @@
     <string name="cc_subcat_title">Kontroliranje punjenja</string>
     <string name="ac_cc_title_head">Jakost zidnog punjača</string>
     <string name="ac_cc_summary_head">Smanjivanjem se štiti baterija ali punjenje traje duže, povećavanjem se može oštetiti život baterije</string>
-    <string name="usb_cc_title_head">Jakost USB punjenja</string>
-    <string name="usb_cc_summary_head">Korisno je odabrati Brzo Punjenje. Smanjivanjem se štiti baterija ali punjenje traje duže, povećavanjem se može oštetiti život baterije</string>
 
     <!-- CATEGORY: Charger Control -->
     <string name="deepsleep_subcat_title">Duboki san</string>

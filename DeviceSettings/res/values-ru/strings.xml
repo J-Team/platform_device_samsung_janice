@@ -51,8 +51,6 @@
     <string name="cc_subcat_title">Управление зарядкой</string>
     <string name="ac_cc_title_head">Ток зарядного устройства</string>
     <string name="ac_cc_summary_head">Ток зарядного устройства в мА, низкие значения защищают батарею, но увеличивают время зарядки, высокие значения могут сократить срок службы батареи</string>
-    <string name="usb_cc_title_head">Ток по USB-кабелю</string>
-    <string name="usb_cc_summary_head">Ток по USB-кабелю в мА, полезно для реализации режима быстрой зарядки, низкие значения защищают батарею, но увеличивают время зарядки, высокие значения могут сократить срок службы батареи</string>
 
     <!-- CATEGORY: Deep Sleep -->
     <string name="deepsleep_subcat_title">Состояние сна</string>

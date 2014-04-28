@@ -1,10 +1,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string-array name="cc_currency_usb_entries">
-        <item>800 mAh *ATTENZIONE*</item>
-        <item>600 mAh (Ricarica Veloce)</item>
-        <item>400 mAh</item>
-    </string-array>
     <string-array name="deepest_sleep_states_entries">
         <item>Stato 5</item>
         <item>Stato 4</item>

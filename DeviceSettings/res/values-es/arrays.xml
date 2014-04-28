@@ -35,11 +35,6 @@
         <item>Disabled</item>
         <item>Dynamic</item>
     </string-array>
-    <string-array name="cc_currency_usb_entries">
-        <item>800 mAh *WARNING*</item>
-        <item>600 mAh (fast charge)</item>
-        <item>400 mAh</item>
-    </string-array>
     <string-array name="deepest_sleep_states_entries">
         <item>State 5</item>
         <item>State 4</item>

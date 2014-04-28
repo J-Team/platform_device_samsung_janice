@@ -51,8 +51,6 @@
     <string name="cc_subcat_title">Керування процесом заряджання</string>
     <string name="ac_cc_title_head">Струм від зарядного пристрою</string>
     <string name="ac_cc_summary_head">Струм від зарядного пристрою в мА, низький рівень захищає акумулятор, але збільшуе час заряджання, високий рівень може зашкодити акумулятору</string>
-    <string name="usb_cc_title_head">Струм від USB-кабелю</string>
-    <string name="usb_cc_summary_head">Струм від USB-кабелю в мА, корисно для режиму швидкого заряджання, низький рівень захищає акумулятор, але збільшуе час заряджання, високий рівень може зашкодити акумулятору</string>
 
     <!-- CATEGORY: Deep Sleep -->
     <string name="deepsleep_subcat_title">Стан сну</string>

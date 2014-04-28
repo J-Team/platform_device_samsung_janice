@@ -49,16 +49,6 @@
         <item>1</item>
         <item>2</item>
     </string-array>
-    <string-array name="cc_currency_usb_entries">
-        <item>800 мА *УВАГА*</item>
-        <item>600 мА (швидка зарядка)</item>
-        <item>400 мА</item>
-    </string-array>
-    <string-array name="cc_currency_usb_entries_values" translatable="false">
-        <item>800</item>
-        <item>600</item>
-        <item>400</item>
-    </string-array>
     <string-array name="deepest_sleep_states_entries">
         <item>Стан 5</item>
         <item>Стан 4</item>
