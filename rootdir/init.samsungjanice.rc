@@ -1,4 +1,6 @@
 import /init.samsungjanice.usb.rc
+# Set permissions for NovathorSettings app tunnables
+import /device_tunnables.rc
 
 on init
 
@@ -461,9 +463,6 @@ on boot
 
     # Torch
     chmod 0222 /sys/class/sec/flash/enable
-    
-    # Set permissions for NovathorSettings app tunnables
-    import /device_tunnables.rc
 
     # Define TCP buffer sizes for various networks
     # ReadMin, ReadInitial, ReadMax, WriteMin, WriteInitial, WriteMax,
