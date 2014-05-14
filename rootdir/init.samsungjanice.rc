@@ -743,6 +743,11 @@ service gpsd /system/bin/gpsd -c /system/etc/gps.xml
     socket gps seqpacket 0660 gps system
     user gps
     group system inet sdcard_rw
+	
+service hostapd_bin /system/bin/hostapd -d /data/misc/wifi/hostapd.conf
+    socket wpa_wlan0 dgram 660 wifi wifi
+    disabled
+    oneshot
 
 #for WiFi MFG(TestMode)
 service mfgloader /system/bin/mfgloader
