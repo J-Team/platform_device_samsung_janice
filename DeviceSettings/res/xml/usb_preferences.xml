@@ -28,7 +28,7 @@
             android:entryValues="@array/cc_currency_usb_entries_values"
             android:key="usb_currency"
             android:summary="@string/usb_cc_summary_head"
-            android:title="@string/usb_cc_title_head" />
-    </PreferenceCategory> -->
+            android:title="@string/usb_cc_title_head" /> -->
+    </PreferenceCategory>
 
 </PreferenceScreen>

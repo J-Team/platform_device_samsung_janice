@@ -27,7 +27,6 @@ public class Startup extends BroadcastReceiver {
 		ScreenFragmentActivity.restore(context);
 		USBFragmentActivity.restore(context);
 		ChargerCurrency.restore(context);
-		UsbCurrency.restore(context);
 		DeepestSleepState.restore(context);
 		GeneralFragmentActivity.restore(context);
 		PanelGamma.restore(context);

@@ -6,9 +6,15 @@
         <item>Stato 3 (Predefinito)</item>
     </string-array>
     <string-array name="cc_currency_charger_entries">
-        <item>800 mAh   *ATTENZIONE*</item>
-        <item>600 mAh (Predefinito)</item>
-        <item>400 mAh</item>
+        <item>900 mA   *ATTENZIONE*</item>
+        <item>800 mA   *ATTENZIONE*</item>
+        <item>700 mA</item>
+        <item>600 mA (predefinito)</item>
+        <item>500 mA</item>
+        <item>400 mA</item>
+        <item>300 mA</item>
+        <item>200 mA</item>
+        <item>100 mA</item>
     </string-array>
     <string-array name="panel_gamma_entries">
         <item>2.2 (Predefinito)</item>

@@ -21,9 +21,15 @@
         <item>Stanje 3 (Zadano)</item>
     </string-array>
     <string-array name="cc_currency_charger_entries">
-        <item>800 mAh   *UPOZORENJE*</item>
-        <item>600 mAh (Zadano)</item>
-        <item>400 mAh</item>
+	<item>900 mA   *UPOZORENJE*</item>
+        <item>800 mA   *UPOZORENJE*</item>
+        <item>700 mA</item>
+        <item>600 mA (Zadano)</item>
+        <item>500 mA</item>
+        <item>400 mA</item>
+        <item>300 mA</item>
+        <item>200 mA</item>
+        <item>100 mA</item>
     </string-array>
     <string-array name="hspa_entries">
         <item>Samo UMTS</item>
