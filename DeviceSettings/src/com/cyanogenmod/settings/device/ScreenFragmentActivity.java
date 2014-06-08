@@ -34,8 +34,6 @@ public class ScreenFragmentActivity extends PreferenceFragment {
 
 	private TouchscreenSensitivity mTouchscreenSensitivity;
 
-	public static final String FILE_SWEEP2WAKE = "/sys/kernel/mxt224e/sweep2wake";
-
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -58,24 +56,12 @@ public class ScreenFragmentActivity extends PreferenceFragment {
 
 		Log.w(TAG, "key: " + key);
 
-		if (key.equals(DeviceSettings.KEY_USE_SWEEP2WAKE)) {
-			boxValue = (((CheckBoxPreference) preference).isChecked() ? "on"
-					: "off");
-			Utils.writeValue(FILE_SWEEP2WAKE, boxValue);
-
-		}
-
 		return true;
 	}
 
 	public static void restore(Context context) {
 		SharedPreferences sharedPrefs = PreferenceManager
 				.getDefaultSharedPreferences(context);
-		sharedPrefs.getBoolean(DeviceSettings.KEY_USE_SWEEP2WAKE, false);
-
-		String value = sharedPrefs.getBoolean(
-				DeviceSettings.KEY_USE_SWEEP2WAKE, false) ? "on" : "off";
-		Utils.writeValue(FILE_SWEEP2WAKE, value);
 
 	}
 }
