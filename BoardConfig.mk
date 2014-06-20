@@ -13,8 +13,8 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/janice/bluetooth
 # Vibrator
 BOARD_HAS_VIBRATOR_IMPLEMENTATION := ../../device/samsung/janice/vibrator/vibrator.c
 
-# Custom relese tools for unified devices
-#TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/janice
+# Custom relese tools for camera hack
+TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/janice
 
 # Recovery
 TARGET_RECOVERY_FSTAB := device/samsung/janice/rootdir/fstab.samsungjanice

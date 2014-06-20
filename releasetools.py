@@ -13,21 +13,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""Custom OTA commands for janicep devices"""
-
-
-def FullOTA_InstallBegin(info):
-        info.script.AppendExtra('mount("ext4", "EMMC", "/dev/block/mmcblk0p3", "/system");')
-#       info.script.AppendExtra('run_program("/sbin/sh", "-c", "busybox cp -R /system/build.prop /tmp/build.prop");')
-        info.script.AppendExtra('run_program("busybox", "cp", "/system/build.prop", "/tmp/build.prop");')
-        info.script.AppendExtra('ifelse(is_substring("GT-I9070P", getprop("ro.product.model")), ui_print("Your Device is GT-I9070P"));')
-        info.script.AppendExtra('set_perm(0, 0, 0777, "/tmp/build.prop");')
+"""Custom OTA commands for Janice device"""
 
 def FullOTA_InstallEnd(info):
-#        info.script.AppendExtra('ifelse(is_substring("GT-I9070P", file_getprop("/tmp/build.prop", "ro.product.model")), run_program("/sbin/busybox", "setprop", "ro.product.model", "GT-I9070P");')
-        info.script.AppendExtra('ifelse(is_substring("GT-I9070P", file_getprop("/tmp/build.prop", "ro.product.model")), run_program("/sbin/sh", "-c", "busybox setprop ro.product.model GT-I9070P"));')
-        info.script.AppendExtra('ifelse(is_substring("GT-I9070P", file_getprop("/tmp/build.prop", "ro.product.model")), run_program("/sbin/sh", "-c", "busybox setprop ro.product.name GT-I9070P"));')
-        info.script.AppendExtra('ifelse(is_substring("GT-I9070P", file_getprop("/tmp/build.prop", "ro.product.model")), run_program("/sbin/sh", "-c", "busybox setprop ro.product.device GT-I9070P"));')
-        info.script.AppendExtra('ifelse(is_substring("GT-I9070P", file_getprop("/tmp/build.prop", "ro.product.model")), ui_print("Copying GT-I9070P Tee files..."));')
-	info.script.AppendExtra('ifelse(is_substring("GT-I9070P", file_getprop("/tmp/build.prop", "ro.product.model")), run_program("/sbin/sh", "-c", "busybox cp -R /system/lib/teeP/* /system/lib/tee/"));')
-	info.script.AppendExtra('delete_recursive("/system/lib/teeP");')
+	info.script.AppendExtra('run_program("/sbin/sh", "-c", "busybox cp -R /system/lib/libjhead.so /system/lib/libhead.so");')
+	info.script.AppendExtra('run_program("/sbin/make_ext4fs", "/dev/block/mmcblk0p9");')
