@@ -53,6 +53,8 @@ on init
 
 on fs
 
+    exec /system/xbin/mkswap /dev/block/mmcblk0p9
+
     mount_all /fstab.samsungjanice
     swapon_all /fstab.samsungjanice
     
