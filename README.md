@@ -1,7 +1,7 @@
-platform_device_samsung_janice
+Device Tree for Samsung Galaxy S Advance (GT-I9070)
 =============================
 
-AOSP 4.4 Device Tree for Samsung Galaxy S Advance (GT-I9070)
+AOSP 4.4.4
 
 Basic   | Spec Sheet
 -------:|:-------------------------
